@@ -1,0 +1,1025 @@
+/***fonts***/
+
+@font-face {
+  font-family: 'open_sansbold';
+  src: url('fonts/opensans-bold-webfont.woff2') format('woff2'),
+  url('fonts/opensans-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'open_sansbold_italic';
+  src: url('fonts/opensans-bolditalic-webfont.woff2') format('woff2'),
+  url('fonts/opensans-bolditalic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'open_sansregular';
+  src: url('fonts/opensans-regular-webfont.woff2') format('woff2'),
+  url('fonts/opensans-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.bold {
+  font-family: 'open_sansbold';
+  font-weight: normal;
+}
+
+.bold-italic {
+  font-family: 'open_sansbold_italic';
+  font-weight: normal;
+}
+
+.regular {
+  font-family: 'open_sansregular';
+  font-weight: normal;
+}
+
+/***end of fonts***/
+
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'open_sansregular';
+  font-weight: normal;
+}
+
+.container {
+  max-width: 97%;
+  margin: auto;
+}
+
+/***starting of common-classes***/
+
+.img-responsive {
+  max-width: 100%;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.text-blue {
+  color: #162c50;
+}
+
+.bg-link {
+  background-color: #00a0bb;
+  color: white;
+}
+
+.title-head {
+  font-size: 36px;
+  text-align: center;
+  line-height: 41px;
+}
+
+.title-para {
+  width: 52%;
+  margin: auto;
+  text-align: center;
+  line-height: 28px;
+}
+
+.text-white {
+  color: white;
+}
+
+.d-block {
+  display: block;
+}
+
+/***end of common-classes***/
+
+/***padding and margin***/
+
+.pr-65 {
+  padding-right: 65px;
+}
+
+.pb-12 {
+  padding-bottom: 12px;
+}
+
+.pb-36 {
+  padding-bottom: 36px;
+}
+
+.my-16 {
+  margin: -9px 0 -16px;
+}
+
+.mt-5 {
+  margin-top: -5px;
+}
+
+.mb-6 {
+  margin-bottom: -6px;
+}
+
+/***end of padding and margin***/
+
+/***starting of header***/
+
+.header-fixed {
+  position: fixed;
+  z-index: 1;
+  background-color: white;
+  width: 100%;
+  padding: 0 102px;
+}
+
+.header-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 22px 0;
+}
+
+.logo-image {
+  width: 158px;
+  height: auto;
+  max-width: 100%;
+}
+
+.logo-height {
+  height: 55px;
+}
+
+.header-navbar {
+  display: flex;
+  padding-left: 0;
+}
+
+.header-list {
+  list-style-type: none;
+}
+
+.header-link {
+  text-decoration: none;
+  padding: 12px 56px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: -11px;
+}
+
+/***end of header***/
+
+/***starting of banner***/
+
+.banner {
+  background-image: url('../images/banner1.jpg');
+  position: relative;
+  height: 905px;
+  background-size: cover;
+  background-repeat: no-repeat
+}
+
+.content-wrapper {
+  position: absolute;
+  top: 32%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.banner-title {
+  font-size: 52px;
+  line-height: 62px;
+  margin-bottom: 23px;
+}
+
+.banner-para {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.subscription-form {
+  margin-top: 31px;
+}
+
+.form-input {
+  border: none;
+  padding: 21px 21px;
+  width: 47%;
+  font-size: 16px;
+  border-radius: 5px 0 0 5px;
+}
+
+.form-link {
+  text-decoration: none;
+  font-size: 14px;
+  padding: 21px 32px;
+  border-radius: 0 5px 5px 0;
+  margin-left: -4px;
+}
+
+/***end of banner***/
+
+/***starting of start-logging***/
+
+.start-wrap {
+  padding-top: 49px;
+  padding-bottom: 154px;
+}
+
+.start-conversation {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-top: 67px;
+}
+
+.start-content {
+  width: 28.2%;
+}
+
+.start-plain {
+  margin-right: 60px;
+}
+
+.start-plain, .start-colourfull {
+  border: 1px solid #d8f0f4;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 20px 45px;
+}
+
+.start-colourfull {
+  background-color: #d8f0f4;
+  margin-left: 60px;
+  box-shadow: 0 5px 5px #eff0f3;
+}
+
+.start-image1 {
+  width: 340px;
+  height: auto;
+  max-width: 100%;
+  margin-right: 25px;
+}
+
+.start-image {
+  width: 222px;
+  height: auto;
+  max-width: 100%;
+}
+
+/***end of start-logging***/
+
+/***starting of insights***/
+
+.insight-bg{
+  background-color: #00a0bb;
+}
+
+.insight-wrap {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 198px;
+  position: relative;
+}
+
+.insight-image {
+  width: 40%;
+  margin: auto;
+  max-width: 100%;
+}
+
+.insight-margin {
+  margin: 0 0% 0 14%;
+}
+
+.image-s {
+  position: absolute;
+  bottom: 40%;
+  right: 53%;
+}
+
+.insight-badge {
+  position: absolute;
+  top: 43%;
+  left: 31%;
+  width: 23%;
+  background-color: #d8f0f4;
+  border-radius: 10px;
+  padding: 8px 14px;
+  text-align: center;
+  box-shadow: 0px 4px 7px #888888;
+}
+
+.insight-badge-para {
+  color: #00a0bb;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.w-33 {
+  width: 33%;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.w-37 {
+  width: 37%;
+}
+
+.title-right-head {
+  font-size: 36px;
+  line-height: 48px;
+  margin-bottom: -4px;
+}
+
+.title-right-para {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+/***end of insights***/
+
+/***starting of medication***/
+
+.medication-bg {
+  background-color: #40c7a4;
+}
+
+.medication-image {
+  width: 40%;
+  margin: auto;
+}
+
+.mobile-line {
+  position: absolute;
+  bottom: 94%;
+  left: 82%;
+  width: 137px;
+}
+
+.relative {
+  position: relative;
+}
+
+/***end of medication***/
+
+/***starting of share-team***/
+
+.share-wrap {
+  background-color: #006ebd;
+}
+
+.share-image {
+  padding-top: 125px;
+  height: auto;
+}
+
+.share-width {
+  width: 622px;
+}
+
+.share-position {
+  position: absolute;
+  top: 34%;
+  right: 6%;
+  width: 29%;
+}
+
+.share-badge {
+  position: absolute;
+  width: 17%;
+  transform: translate(-50% , -50%);
+  top: 45%;
+  left: 47%;
+  background-color: white;
+  border-radius: 0 5px 5px 0;
+  padding: 0 7px;
+}
+
+.badge-heading,
+.badge-para {
+  font-size: 16px;
+}
+
+.badge-diagram {
+  position: absolute;
+  content: "";
+  display: block;
+  background-color: #00a0bb;
+  width: 35%;
+  height: 100%;
+  top: 0%;
+  right: 100%;
+}
+
+.badge-diagram:before {
+  position: absolute;
+  content: "";
+  display: block;
+  background-color: #d9d6d2;
+  top: 32%;
+  left: 22%;
+  width: 55%;
+  height: 37%;
+}
+
+.badge-diagram:after {
+  position: absolute;
+  content: "";
+  display: block;
+  background-color: #ff5555;
+  top: 62%;
+  right: 17%;
+  width: 13%;
+  height: 13%;
+  border-radius: 50%;
+}
+
+/***end of share-team***/
+
+/***starting of designed and testing***/
+
+.design-doggy {
+  position: absolute;
+  top: -1.5%;
+  right: -3%;
+  width: 339px;
+  transform: translate(-50%, -50%);
+}
+
+.design-image {
+  background-image: url(../images/banner2.png);
+  background-size: auto 100%;
+  background-repeat-x: no-repeat;
+  background-position: 70%;
+  height: auto;
+}
+
+.design-content-wrap {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 186px;
+  padding-bottom: 66px;
+}
+
+.design-content {
+  width: 47%;
+  margin-right: 6%;
+}
+
+.design-content1 {
+  width: 31%;
+  padding-top: 39%;
+  margin: 0 36px;
+}
+
+.design-head {
+  font-size: 20px;
+}
+
+/***end of designed and testing***/
+
+/***starting of footer***/
+
+.footer {
+  padding-top: 68px;
+  padding-bottom: 32px;
+}
+
+.bg-blue {
+  background-color: #162c50;
+}
+
+.signup-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sign-content {
+  width: 43%;
+}
+
+.tab-form {
+  width: 56%;
+  text-align: right;
+}
+
+.tab-form .form-input {
+  width: 53%;
+  font-size: 16px;
+  padding: 21px 28px 21px 20px;
+}
+
+.tab-form .form-link {
+  padding: 21px 16px;
+}
+
+.copywrite-wrap {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 104px;
+}
+
+.policy-link {
+  color: #00a0bb;
+  text-decoration: none;
+}
+
+.footer:after {
+  position: absolute;
+  content: "";
+  display: block;
+  background-color: #2e4262;
+  width: 100%;
+  height: 1px;
+  top: 78%;
+  left: 0%;
+}
+
+/***end of footer***/
+
+/***starting of breakpoint for tablet-view***/
+
+@media only screen and (max-width: 991px) {
+
+  /***starting of header***/
+
+  .header-fixed {
+    position: unset;
+    padding: 0;
+  }
+
+  .header-navbar {
+    padding-left: 0;
+  }
+
+  .pr-65 {
+    padding-right: 35px;
+  }
+
+  /***end of header***/
+
+  /***starting of banner***/
+
+  .content-wrapper {
+    top: 43%;
+    width: 85%;
+  }
+
+  .banner {
+    height: 481px;
+  }
+
+  .subscription-form {
+    justify-content: center;
+  }
+
+  .form-input {
+    width: 55%;
+    border-radius: 5px 0 0 5px;
+  }
+
+  .form-link {
+    border-radius: 0 5px 5px 0;
+  }
+
+  /***end of banner***/
+
+  /***starting of start-logging**/
+
+  .start-wrap {
+    padding-bottom: 81px;
+  }
+
+  .title-para {
+    width: 70%;
+  }
+
+  .start-conversation {
+    flex-wrap: wrap;
+  }
+
+  .start-content {
+    width: 100%;
+  }
+
+  .start-image {
+    padding-top: 60px;
+  }
+
+  /***end of start-logging***/
+
+  /***starting of insights***/
+
+  .insight-wrap {
+    padding-top: 80px;
+    justify-content: space-between;
+  }
+
+  .m-auto {
+    margin: 0;
+  }
+
+  .insight-image {
+    width: 332px;
+  }
+
+  .insight-margin {
+    margin: 0;
+  }
+
+  .image-s {
+    display: none;
+  }
+
+  .insight-badge {
+    width: 32%;
+    left: 25%;
+    top: 31%;
+  }
+
+  /***end of insights***/
+
+  /***starting of medication***/
+
+  .medication-bg {
+    padding-top: 65px;
+  }
+
+  .medication-image {
+    margin: 0;
+  }
+
+  .mobile-line {
+    display: none;
+  }
+
+  /***end of medication***/
+
+  /***starting of share-team***/
+
+  .share-badge {
+    top: 50.2%;
+    left: 40%;
+    width: 17%;
+  }
+
+  .share-position {
+    top: 21%;
+    width: 45%;
+    right: 2%;
+  }
+
+  .share-width {
+    width: 350px;
+  }
+
+  .badge-heading {
+    font-size: 12px;
+  }
+
+  .badge-para {
+    font-size: 11px;
+  }
+
+  /***end of share-team***/
+
+  /***starting of designed and testing***/
+
+  .design-image {
+    background-position: top center;
+  }
+
+  .design-content-wrap {
+    padding-top: 70px;
+  }
+
+  .design-content {
+    width: 51%;
+  }
+
+  .design-content1 {
+    width: 36%;
+    padding-top: 71%;
+    margin-right: 0px;
+  }
+
+  .design-doggy {
+    display: none;
+  }
+
+  /***end of designed and testing***/
+
+  /***starting of footer***/
+
+  .tab-form {
+    width: 45%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tab-form .form-input {
+    width: 94%;
+    border-radius: 5px;
+  }
+
+  .tab-form .form-link {
+    width: 94%;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+
+  /***end of footer***/
+}
+
+/***end of breakpoint for tablet-view***/
+
+/***starting of breakpoint for mobile-view***/
+
+@media only screen and (max-width: 767px) {
+
+  .container {
+    padding: 0 15px;
+    max-width: unset;
+  }
+
+  /***starting of header***/
+
+  .header-fixed {
+    position: unset;
+    padding: 0;
+  }
+
+  .header-section {
+    flex-direction: column;
+  }
+
+  .logo-image {
+    width: 100%;
+    text-align: center;
+  }
+
+  .header-navbar {
+    flex-direction: column;
+    text-align: center;
+    padding-left: 0px;
+    margin: 5px 0;
+  }
+
+  .pr-65 {
+    padding-right: 0px;
+  }
+
+  .header-list {
+    font-size: 12px;
+  }
+
+  .header-link {
+    margin-top: 20px;
+  }
+
+  /***end of header***/
+
+  /***starting of banner***/
+
+  .content-wrapper {
+    width: 93%;
+    top: 47%;
+  }
+
+  .banner {
+    height: 600px;
+    background-size: inherit;
+  }
+
+  .banner-title {
+    font-size: 35px;
+    line-height: 50px;
+  }
+
+  .banner-para {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .subscription-form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form-input {
+    width: 100%;
+    border-radius: 5px;
+  }
+
+  .form-link {
+    border-radius: 5px;
+    margin: 12px 0 0;
+  }
+
+  /***end of banner***/
+
+  /***starting of start-logging***/
+
+  .start-wrap {
+    padding-top: 20px;
+    padding-bottom: 47px;
+  }
+
+  .pb-12 {
+    padding-bottom: 0px;
+  }
+
+  .title-head {
+    font-size: 31px;
+  }
+
+  .title-para {
+    width: 100%;
+    line-height: 25px;
+  }
+
+  .start-conversation {
+    flex-direction: column;
+    padding-top: 20px;
+  }
+
+  .start-content {
+    width: 100%;
+  }
+
+  .start-plain {
+    margin-right: 30px;
+  }
+
+  .start-colourfull {
+    margin-left: 30px;
+  }
+
+  .start-image1 {
+    margin: auto;
+    padding-top: 29px;
+  }
+
+  .start-image {
+    margin: auto;
+    padding-top: 35px;
+  }
+
+  /***end of start-logging***/
+
+  /***starting of insights***/
+
+  .insight-wrap {
+    flex-direction: column;
+    padding-top: 28px;
+  }
+
+  .insight-image {
+    width: 100%;
+    order: 2;
+    padding-top: 15%;
+  }
+
+  .margin {
+    margin: auto;
+  }
+
+  .insight-badge {
+    width: 62%;
+    top: 38%;
+    left: 35%;
+  }
+
+  .title-right-wrap {
+    width: 94%;
+    margin: auto;
+  }
+
+  .title-right-head {
+    font-size: 31px;
+    text-align: center;
+    line-height: 35px;
+  }
+
+  .title-right-para {
+    font-size: 16px;
+    text-align: center;
+    line-height: 25px;
+  }
+
+  /***end of insights***/
+
+  /***starting of medication***/
+
+  .medication-bg {
+    padding-top: 0;
+  }
+
+  .medication-image {
+    padding-top: 35px;
+    width: 100%;
+  }
+
+  .medication-height {
+    height: 574px;
+  }
+
+  /***end of medication***/
+
+  /***starting of share-team***/
+
+  .share-position {
+    top: 4.7%;
+    right: 3%;
+  }
+
+  .share-image {
+    padding-top: 250px;
+  }
+
+  .share-badge {
+    top: 60.5%;
+    left: 79%;
+    width: 32%;
+  }
+
+  /***end of share-team***/
+
+  /***starting of designed and testing***/
+
+  .design-image {
+    background-image: url(../images/banner2-img.png);
+    background-position: bottom;
+    background-size: cover;
+  }
+
+  .design-content-wrap {
+    flex-direction: column;
+    padding-top: 28px;
+    padding-bottom: 40px;
+  }
+
+  .design-content,
+  .design-content1 {
+    text-align: center;
+    width: 100%;
+    margin: 0;
+  }
+
+  .design-content1 {
+    padding-top: 7%;
+  }
+
+  .design-head {
+    font-size: 18px;
+  }
+
+  /***end of designed and testing***/
+
+  /***starting of footer***/
+
+  .footer {
+    padding: 29px 0 34px;
+  }
+
+  .tab-form {
+    width: 100%;
+  }
+
+  .tab-form .form-input {
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 13px;
+  }
+
+  .tab-form .form-link {
+    width: 100%;
+    text-align: center;
+    font-size: 11px;
+  }
+
+  .signup-wrap {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .sign-content {
+    width: 100%;
+  }
+
+  /***end of footer***/
+}
+
+/***end of breakpoint for mobile-view***/
